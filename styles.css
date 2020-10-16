@@ -1,0 +1,34 @@
+
+body{
+    background-color: darkgrey;
+}
+
+.squares {
+    height: 306px;
+    width: 306px;
+    border-style: solid;
+    border-color: black;
+    flex-flow: wrap;
+    display: flex;
+
+}
+
+.game-image {
+    background-size: cover;
+    background-image: url('images/bugs.jpg');
+    /* Thanks to Gabriel Manlake for the image. */
+}
+
+.sq {
+    height: 100px;
+    width: 100px;
+    border: slateblue solid 1px;
+}
+
+h2, h3{
+    color: lightskyblue;
+}
+
+h1{
+    color: saddlebrown;
+}
